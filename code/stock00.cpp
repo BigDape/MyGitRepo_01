@@ -20,7 +20,7 @@ Stock::Stock(const std::string & co,long n,double pr)
 	{
 		std::cout << "Number of shares can't be negative;"
 			<< company << "shares set to 0.\n";
-		shares = 0;//hhhh
+		shares = 0;//hhhhaaa
 	}
 	else
 		shares = n;
