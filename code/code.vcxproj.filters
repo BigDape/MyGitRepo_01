@@ -158,6 +158,15 @@
     <ClCompile Include="byte_test_04.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="chartype.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="offer_0416_01.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="offer_0417_01.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="code.rc">

@@ -48,25 +48,13 @@ void printList(ListNode* pListHead)
 
 int main()
 {
-	Solution s;
-	ListNode* pListHead;
-	pListHead = (ListNode*)malloc(sizeof(ListNode));
-	//将[1,10]加入链表
-	ListNode* q, * p;
-	p = pListHead;
-	for (int i=1;i<11;i++)
-	{
-		q = (ListNode*)malloc(sizeof(ListNode));
-		q->val = i;
-		q->next=NULL;
-		p->next = q;
-		p = q;
-	}
-	//先打印正序列表
-	printList(pListHead);
-	//寻找倒数第k个元素
-	ListNode* aa = s.FindKthToTail(pListHead, 2);
-	int a = aa->val;
-	cout << a;
+	int i = 0;
+	cout << "i = " << i << endl;
+	int x = i++;
+	cout << "i++" << i << x << endl;
+	int y = ++i;
+	cout << "++i" << i << y << endl;
+	return 0;
+	
 }
 
